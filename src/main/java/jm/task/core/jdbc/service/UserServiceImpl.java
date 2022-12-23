@@ -1,16 +1,10 @@
-package jm.task.core.jdbc.util.service;
+package jm.task.core.jdbc.service;
 
 import jm.task.core.jdbc.dao.UserDao;
 import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 import jm.task.core.jdbc.model.User;
 
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
-
-import static jm.task.core.jdbc.util.Util.getConnection;
 
 public class UserServiceImpl implements UserService {
 
